@@ -30,7 +30,7 @@ O presente documento, portanto, contém instruções de como construir o jogo pa
 
 1x Tinta PVA Vermelha
 
-1x “Borracinha de impressora?”
+1x Borracha de impressora
 
 ?x Papelão
 
@@ -44,12 +44,13 @@ A estrutura base de suporte do veículo foi feita em impressão 3d, peça única
 (Inserir o arquivo do chassi)
 
 Dos componentes do carrinho:
-A estrutura foi pensada com tamanho suficiente para caber todos os componentes necessários. Na parte superior do veículo, foi colada a Beetle Esp32 C6, o driver de motor e duas das baterias em paralelo, que alimentam todo o circuito. Abaixo, nos devidos encaixes, os dois motores, que movimentam o carrinho. As rodas foram feitas utilizando [Borrachinhas de impressora?], junto a pequenos adaptadores impressos em 3d, que adequam o diâmetro do furo da borracha a bitola do eixo do motor. Seguem abaixo, fotos da montagem do carrinho.
+A estrutura foi pensada com tamanho suficiente para caber todos os componentes necessários. Na parte superior do veículo, foi colada a Beetle Esp32 C6, o driver de motor e duas das baterias em paralelo, que alimentam todo o circuito. Abaixo, nos devidos encaixes, os dois motores, que movimentam o carrinho. As rodas foram feitas utilizando [Borrachinhas de impressora?], , junto a pequenos adaptadores impressos em 3d, que adequam o diâmetro do furo da borracha a bitola do eixo do motor. Seguem abaixo, fotos da montagem do carrinho.
 
-(Inserir foto da montagem do carrinho)
-(Inserir arquivo do adaptador de roda)
+(INSIRA FOTO DO CARRINHO)
 
 As ligações (onde vai cada fio)
+
+(INSIRA FOTO DA GAMBIARRA)
 
 # Do controle remoto
 
@@ -71,6 +72,8 @@ O controle atua como “server” Bluetooth, ou seja, quem envia os comandos, qu
 # Da maquete
 
  Estrutura base:
-A estrutura base é construída com as três chapas de MDF mencionadas na lista de materiais. As chapas possuem recortes que se encaixam para formar uma única estrutura, e gravações na forma de ruas, que guiam o caminho do jogo. Esses recortes e gravações, feitos justamente em máquina de corte à laser, com os arquivos DXF localizados neste repositório.
+A estrutura base é construída com as três chapas de MDF mencionadas na lista de materiais. As chapas possuem recortes que se encaixam para formar uma única estrutura, e gravações na forma de ruas, que guiam o caminho do jogo. Além disso, há faixas de pedestres gravadas na maquete. Esses recortes e gravações, feitos justamente em máquina de corte à laser, com os arquivos DXF localizados neste repositório.
 
  Obstáculos:
+Os obstáculos físicos (placa de pare, placa de obras na pista, placa de virada obrigatória, cones) foram parte modelados e impressos em impressão 3D, parte, feitos manualmente. Nesse sentido, os cones e as bases de sustentação das placas foram impressas, enquanto suas partes correspondentes à sinalização foram recortadas em papelão, e pintadas com tinta PVA. Os arquivos para impressão 3D estão contidos neste repositório, enquanto as partes de construção manual estão descritas e demonstradas abaixo:
+(INSIRA MEDIDAS E FOTOS)
