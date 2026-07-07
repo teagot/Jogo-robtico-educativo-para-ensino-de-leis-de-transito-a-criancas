@@ -68,3 +68,9 @@ O controle atua como “server” Bluetooth, ou seja, quem envia os comandos, qu
 
 (Inserir arquivo: Código server [controle])
 
+# Da maquete
+
+ Estrutura base:
+A estrutura base é construída com as três chapas de MDF mencionadas na lista de materiais. As chapas possuem recortes que se encaixam para formar uma única estrutura, e gravações na forma de ruas, que guiam o caminho do jogo. Esses recortes e gravações, feitos justamente em máquina de corte à laser, com os arquivos DXF localizados neste repositório.
+
+ Obstáculos:
