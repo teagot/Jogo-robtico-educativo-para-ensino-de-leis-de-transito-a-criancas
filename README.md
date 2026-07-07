@@ -38,7 +38,7 @@ O presente documento, portanto, contém instruções de como construir o jogo pa
 
 # A construção do carrinho
 
-Chassi feito em impressão 3d:
+Chassi feito em impressão 3D:
 A estrutura base de suporte do veículo foi feita em impressão 3d, peça única, modelada no fusion. Segue abaixo modelo para impressão:
 
 (Inserir o arquivo do chassi)
