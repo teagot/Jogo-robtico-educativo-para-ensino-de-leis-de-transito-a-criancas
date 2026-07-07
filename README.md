@@ -30,7 +30,7 @@ O presente documento, portanto, contém instruções de como construir o jogo pa
 
 1x Tinta PVA Vermelha
 
-1x Borracha de impressora
+2x Borracha de impressora
 
 ?x Papelão
 
@@ -44,7 +44,7 @@ A estrutura base de suporte do veículo foi feita em impressão 3d, peça única
 (Inserir o arquivo do chassi)
 
 Dos componentes do carrinho:
-A estrutura foi pensada com tamanho suficiente para caber todos os componentes necessários. Na parte superior do veículo, foi colada a Beetle Esp32 C6, o driver de motor e duas das baterias em paralelo, que alimentam todo o circuito. Abaixo, nos devidos encaixes, os dois motores, que movimentam o carrinho. As rodas foram feitas utilizando [Borrachinhas de impressora?], , junto a pequenos adaptadores impressos em 3d, que adequam o diâmetro do furo da borracha a bitola do eixo do motor. Seguem abaixo, fotos da montagem do carrinho.
+A estrutura foi pensada com tamanho suficiente para caber todos os componentes necessários. Na parte superior do veículo, foi colada a Beetle Esp32 C6, o driver de motor e duas das baterias em paralelo, que alimentam todo o circuito. Abaixo, nos devidos encaixes, os dois motores, que movimentam o carrinho. As rodas foram feitas utilizando dois pedaços de borracha de rolete de impressora, cortados ao meio, junto a pequenos adaptadores impressos em 3d, que adequam o diâmetro do furo da borracha a bitola do eixo do motor. Seguem abaixo, fotos da montagem do carrinho.
 
 (INSIRA FOTO DO CARRINHO)
 
@@ -60,14 +60,10 @@ O controle é feito de forma simples [Até então sem case para deixar arrumado]
 # Da conexão carro-controle
 
 Código do carrinho:
-A conexão entre as duas Esp32, feita no intuito da passagem de comandos entre controle e carrinho é feita através de BLE (Bluetooth Low Energy), que possui alcance viável para o trabalho e alta taxa de economia de energia. Nesse caso, a Esp32 do carrinho atua como “client” do Bluetooth (ou seja, o receptor, que recebe os comandos vindos do controle, que é o server). Abaixo, segue o código para ser inserido no controlador do carrinho.
-
-(Inserir arquivo: Código Client [carrinho])
+A conexão entre as duas Esp32, feita no intuito da passagem de comandos entre controle e carrinho é feita através de BLE (Bluetooth Low Energy), que possui alcance viável para o trabalho e alta taxa de economia de energia. Nesse caso, a Esp32 do carrinho atua como “client” do Bluetooth (ou seja, o receptor, que recebe os comandos vindos do controle, que é o server). O código está contido nesse repositório.
 
  Código do Controle:
-O controle atua como “server” Bluetooth, ou seja, quem envia os comandos, que são captados pelo client. Nesse caso, ele capta os sinais elétricos correspondentes ao movimento do joystick, os converte em um sinal que pode ser enviado pelo bluetooth, e a Esp32 do carrinho responde a esses sinais na forma de movimento dos motores. Abaixo segue o código para ser inserido no controlador do controle remoto.
-
-(Inserir arquivo: Código server [controle])
+O controle atua como “server” Bluetooth, ou seja, quem envia os comandos, que são captados pelo client. Nesse caso, ele capta os sinais elétricos correspondentes ao movimento do joystick, os converte em um sinal que pode ser enviado pelo bluetooth, e a Esp32 do carrinho responde a esses sinais na forma de movimento dos motores. O código está contido nesse repositório.
 
 # Da maquete
 
