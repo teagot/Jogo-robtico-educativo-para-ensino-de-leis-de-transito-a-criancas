@@ -4,7 +4,7 @@ Arquivos necessários para a construção do Jogo robótico educativo para ensin
 O jogo robótico educativo para ensino de leis de trânsito a crianças é um jogo físico desenvolvido no intuito de demonstrar de forma prática a aplicação das leis impostas pelo Código de Trânsito Brasileiro para crianças. O jogo utiliza um carrinho de controle remoto e uma maquete de cidade que contém obstáculos com regras, das quais as crianças devem demonstrar um comportamento digno de um motorista correto.
 O presente documento, portanto, contém instruções de como construir o jogo para si, junto a ideias de adaptações e melhorias baseadas na construção original do jogo.
 
-1. Lista de componentes:
+Lista de componentes:
 
 1x Esp32 Dev Kit v1
 
