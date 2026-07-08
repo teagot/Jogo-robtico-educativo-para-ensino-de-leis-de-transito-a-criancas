@@ -49,7 +49,10 @@ A estrutura foi pensada com tamanho suficiente para caber todos os componentes n
 
 As ligações (onde vai cada fio)
 
-(INSIRA FOTO DA GAMBIARRA)
+(INSIRA FOTO DA GAMBIARRA E PONTUE OS FIOS)
+
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/e30c3682-69fd-4c39-9d23-5d9992d855b9" />
+
 
 # Do controle remoto
 
