@@ -57,6 +57,9 @@ As ligações (onde vai cada fio)
 Da estrutura e dos componentes:
 O controle é feito de forma simples [Até então sem case para deixar arrumado]; Esp32 Dev Kit v1, um módulo Joystick KY-023 e uma bateria 3.7v 650mAh.
 
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8c838d57-0a33-4611-b125-9b344750d75a" />
+
+
 As ligações (onde vai cada fio)
 
 # Da conexão carro-controle
