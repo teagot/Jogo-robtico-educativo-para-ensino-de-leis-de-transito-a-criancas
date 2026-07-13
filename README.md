@@ -81,8 +81,6 @@ BO1 do Driver - Positivo do Motor 2;
 
 BO2 do Driver - Negativo do Motor 2;
 
-(INSIRA FOTO DA GAMBIARRA E PONTUE OS FIOS)
-
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/e30c3682-69fd-4c39-9d23-5d9992d855b9" />
 
 
