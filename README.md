@@ -92,7 +92,12 @@ O controle é feito de forma simples; Esp32 Dev Kit v1, um módulo Joystick KY-0
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/8c838d57-0a33-4611-b125-9b344750d75a" />
 
 
-As ligações (onde vai cada fio)
+Positivo da Bateria - 3.3v da esp e alimentação do controle;
+
+Negativo da Bateria - GND;
+
+JOY_X do controle - 34 da esp;
+JOY_Y do controle - 35 da esp;
 
 # Da conexão carro-controle
 
