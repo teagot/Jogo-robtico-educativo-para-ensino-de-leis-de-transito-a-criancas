@@ -121,5 +121,8 @@ Os obstáculos físicos (placa de pare, placa de obras na pista, placa de virada
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/cceafd00-d8a8-4ac9-ae52-c1b3726d68de" />  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/d9f991f3-c8f7-4f61-a2c5-e79e35ee1a79" />  <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/f9115fb9-e07e-420c-b8c0-94cf93c49241" />
 
+Placa de virada obrigatória a direita: 31,5mm de Diâmetro;
 
+Placa de Pare: Octógono com aproximadamente 32mm de altura (17mm de lado);
 
+Placa de Obras na pista: 41x41mm.
